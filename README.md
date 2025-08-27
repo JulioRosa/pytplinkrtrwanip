@@ -38,3 +38,16 @@ This project is based on [AlexandrErohin/TP-Link-Archer-C6U](https://github.com/
 ```bash
 git clone https://github.com/JuioRosa/pytplinkrtrwanip.git
 cd pytplinkrtrwanip
+
+### 🕒 Setting up a Cron Job for pytplinkrtrwanip
+
+To keep your WAN IP synced with DuckDNS, run the script automatically using `cron`.
+
+## ⏱️ Example: RCheck router wan IP Every 5 Minutes
+
+1. Open crontab:
+   ```in Linux:
+   crontab -e
+#updates every 5 minutes
+*/5 * * * * /usr/bin/python3 /full/path/to/pytplinkrtrwanip/main.py >> /full/path/to/pytplinkrtrwanip/cron.log 2>&1
+
