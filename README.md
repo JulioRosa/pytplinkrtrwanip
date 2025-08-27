@@ -43,7 +43,7 @@ cd pytplinkrtrwanip
 
 To keep your WAN IP synced with DuckDNS, run the script automatically using `cron`.
 
-## ⏱️ Example: RCheck router wan IP Every 5 Minutes
+## ⏱️ Example: Check router wan IP Every 5 Minutes
 
 1. Open crontab:
    ```in Linux:
