@@ -4,7 +4,7 @@ Retrieve WAN IP from TP-Link Routers
 
 # 🛰️ pytplinkrtrwanip
 
-Bypass CGNAT and expose your TP-Link router's WAN IP to the internet using DuckDNS.
+Bypass CGNAT and expose your TP-Link router's WAN IP to the internet using DuckDNS and motionEyeOS.
 
 This project is based on [AlexandrErohin/TP-Link-Archer-C6U](https://github.com/AlexandrErohin/TP-Link-Archer-C6U) and specially adapted for the **TP-Link Archer MR200** router.
 
